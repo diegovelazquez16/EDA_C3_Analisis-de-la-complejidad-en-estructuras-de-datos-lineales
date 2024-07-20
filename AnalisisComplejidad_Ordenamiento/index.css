@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    border: 0;
+    margin: 0;
+    margin-top: 0;
+}
+#header{
+    position: fixed;
+    background-color: rgb(211, 168, 188);
+    height: 80px;
+    top: 0;
+    align-items: center;
+    width: 100vw;
+    z-index: 2;
+    display: flex;
+}
+#header button{
+    margin-left: 30px;
+    margin-right: 100px;
+    border: none;
+}
+
+#info{
+    width: 30%;
+    text-align: center;
+    background-color: rgb(174, 97, 115);
+    position: fixed;
+    height: 90%;
+}
+
+#info button{
+   margin-top: 20px;
+   border: none;
+
+}
+
+#contain{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    margin-left: 30%;
+    margin-top: 80px;
+    padding-top: 20px;
+    height: auto;
+    text-align: center;
+}
+
+#chart-container {
+    position: relative;
+    width: 700px; 
+    height: auto;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    border: black solid 1px;
+    border-radius: 7px;
+    margin-top: 50px;
+}
+
+#myChart {
+    width: 700px;
+    height: 400px;
+}
+
+
+button {
+    margin: 5px;
+    background-color: rgb(227, 224, 224);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button:hover{
+    background-color: rgb(192, 192, 192);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 2px 0;
+}
